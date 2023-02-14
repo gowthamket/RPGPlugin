@@ -37,9 +37,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactive")
 		bool QuestActivated;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interactive")
-		bool QuestDeactivated;
-
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
